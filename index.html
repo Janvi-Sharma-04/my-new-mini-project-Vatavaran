@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Check</title>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link css & js  -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+  </head>
+  <body>
+
+    <h1>VATAVARAN</h1>
+
+    <!-- card container  -->
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter your city" spellcheck="false" />
+        <button><img src="./imgs/search.png" /></button>
+      </div>
+
+      <div class="weather">
+        <img src="./imgs/rain.png" class="weather-icon" />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">ahemdabad</h2>
+
+        <div class="details">
+          <div class="col">
+            <img src="./imgs/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="./imgs/wind.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
